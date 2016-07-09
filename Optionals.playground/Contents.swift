@@ -7,11 +7,13 @@ brokenFirstItem(fruits)  // Works!
 fruits = []
 // Uncomment the next line to see the problem.
 // You will get an "index out of range" error.
-//brokenFirstItem(fruits)  // Breaks :-(
+// brokenFirstItem(fruits)  // Breaks :-(
 
 
 
 func firstItem(items: [String]) -> String? {
+    // Function returning an optional string
+    
     if items.isEmpty {
         return nil
     }
